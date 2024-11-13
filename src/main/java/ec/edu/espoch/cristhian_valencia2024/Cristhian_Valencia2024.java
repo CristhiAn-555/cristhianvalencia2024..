@@ -17,13 +17,13 @@ public class Cristhian_Valencia2024 {
         Scanner sc = new Scanner(System.in);
         int[] dias = new int[7];
         double  promedio = 0, puntuacionAlto = 0, puntuacionBajo = 0;
-        int productosEncimaPromedio = 0;
+        int diasEncimaPromedio = 0;
         
         
         //p2
         
         System.out.println("Ingresar la putuacion diarias");
-        for(int i = 0; i < dias.length; i++){
+        for(int i = 0; i < 7; i++){
             
             System.out.print("puntuacion diarias " + (i + 1) + ": ");
            dias[i] = scanner.nextDouble();
@@ -40,9 +40,22 @@ public class Cristhian_Valencia2024 {
             System.out.println("5.salir");
             System.out.print("Seleccione una opción: ");
             opcion = scanner.nextInt();
+            
+            
+            switch (opcion){
+                case 1:
+                    promedio = 0;
+                    for(int dias : promedio){
+                        promedio += dias;
+                    }
+                    promedio = dias.length;
+                    System.out.println("las suma de los dias :" + dias );
+                    
+            }
+                
         
             
-    
+            
     }
-    
+        
 }
