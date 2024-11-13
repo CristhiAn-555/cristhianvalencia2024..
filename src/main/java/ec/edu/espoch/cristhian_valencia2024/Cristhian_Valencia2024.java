@@ -39,7 +39,7 @@ public class Cristhian_Valencia2024 {
             System.out.println("4.calcular el total de puntuciones acumuladas durante los primeros cuatro dias y los ultimos cuatro dias");
             System.out.println("5.salir");
             System.out.print("Seleccione una opción: ");
-            opcion = scanner.nextInt();
+            opcion = scanner.nextInt();ss
             
             
             switch (opcion){
@@ -55,7 +55,7 @@ public class Cristhian_Valencia2024 {
                 
         
             
-            
+               
     }
         
 }
